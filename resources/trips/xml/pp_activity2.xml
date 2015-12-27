@@ -1,0 +1,721 @@
+<ns21:ReadTripResponse xmlns:ns42="urn:expedia:om:supply:messages:defn:v1" xmlns:ns41="urn:expedia:payment:system:types:v2" xmlns:ns40="urn:expedia:e3:ss:lodging:lodginginterface:messages:purchasetypes:defn:v2" xmlns:ns46="urn:expedia:e3:ss:lodging:lodginginterface:changecommontypes:defn:v1" xmlns:ns45="urn:expedia:e3:partnerlty:sterling:types:v1" xmlns:ns44="urn:expedia:e3:cpn:domain:basetypes:defn:v2" xmlns:ns43="urn:expedia:om:supply:datatype:defn:v1" xmlns:ns49="urn:expedia:e3:lty:domain:pointbanktypes:defn:v1" xmlns:ns48="urn:expedia:payment:omsadapter:types:v1" xmlns:ns47="urn:expedia:e3:ss:lodging:lodginginterface:messages:softchangetypes:defn:v1" xmlns:ns16="urn:expedia:e3:data:revitemtypes:defn:v1" xmlns:ns17="urn:expedia:e3:data:financetypes:defn:v4" xmlns:ns14="urn:expedia:e3:ss:lodging:lodginginterface:bookingcommontypes:defn:v2" xmlns:ns15="urn:expedia:e3:ss:lodging:lodginginterface:messages:availdetailtypes:defn:v3" xmlns:ns18="urn:expedia:e3:data:airtypes:defn:v6" xmlns:ns19="urn:expedia:e3:data:ancillarytypes:defn:v2" xmlns:ns12="urn:expedia:e3:ss:lodging:lodginginterface:messages:retrievetypes:defn:v1" xmlns:ns13="urn:expedia:e3:ss:lodging:lodginginterface:commontypes:defn:v4" xmlns:ns10="urn:expedia:e3:data:persontypes:defn:v4" xmlns:ns11="urn:expedia:e3:ews:core:trip:entities:defn:v2" xmlns:ns51="urn:expedia:e3:lty:domain:commontypes:defn:v1" xmlns:ns50="urn:expedia:e3:lty:domain:adaptorproxy:defn:v1" xmlns:ns53="urn:expedia:e3:lty:domain:basetypes:defn:v1" xmlns:ns52="urn:expedia:e3:lty:domain:offertypes:defn:v1" xmlns:ns55="urn:expedia:e3:cpn:domain:contentprovidertypes:defn:v1" xmlns:ns54="urn:expedia:e3:cpn:domain:activitytypes:defn:v1" xmlns:ns57="urn:expedia:e3:shop:presto:datatype:v1" xmlns:ns56="urn:expedia:e3:shop:packages:messages:changetypes:defn:v1" xmlns:ns59="urn:expedia:e3:ews:core:messages:common:defn:v1" xmlns:ns58="urn:expedia:e3:data:messagetypes:defn:v4" xmlns:ns29="urn:expedia:e3:data:cartypes:defn:v5" xmlns:ns25="urn:expedia:e3:insurance:basetypes:v2" xmlns:ns26="urn:expedia:e3:shop:packages:messages:ordertypes:defn:v1" xmlns:ns27="urn:expedia:e3:shop:packages:messages:common:defn:v3" xmlns:ns28="urn:expedia:e3:ews:core:itinerary:producttypes:defn:v2" xmlns:ns21="urn:expedia:e3:ews:core:trip:messages:defn:v1" xmlns:ns22="urn:expedia:e3:data:naturalproducttypes:defn:v1" xmlns:ns23="urn:expedia:e3:data:traveltypes:defn:v4" xmlns:ns24="urn:expedia:e3:insurance:basetypes:v1" xmlns:ns20="urn:expedia:e3:data:naturalkeytypes:defn:v1" xmlns:ns38="urn:expedia:payment:messages:v1" xmlns:ns39="urn:expedia:e3:ss:lodging:lodginginterface:messages:preparepurchasetypes:defn:v2" xmlns:ns36="urn:expedia:om:datatype:defn:v1" xmlns:ns37="urn:com:expedia:s3:cars:data:carerrortypes:defn:v2" xmlns:ns9="urn:expedia:e3:ss:lodging:lodginginterface:messages:availdetailtypes:defn:v2" xmlns:ns34="urn:expedia:payment:processor:messages:v2" xmlns:ns35="urn:expedia:e3:data:revenueoptimizationtypes:defn:v1" xmlns:ns32="urn:expedia:om:common:defn:v1" xmlns:ns33="urn:expedia:e3:data:errortypes:defn:v4" xmlns:ns5="urn:expedia:e3:ss:lodging:lodginginterface:commontypes:defn:v3" xmlns:ns30="urn:expedia:e3:data:cruise:types:v1" xmlns:ns6="urn:expedia:e3:data:timetypes:defn:v4" xmlns:ns31="urn:expedia:s3:edx:data:edxtypes:defn:v1" xmlns:ns7="urn:expedia:e3:ss:lodging:lodginginterface:bookingcommontypes:defn:v1" xmlns:ns8="urn:expedia:e3:data:placetypes:defn:v4" xmlns:ns2="urn:expedia:e3:ews:core:trip:entities:defn:v1" xmlns:ns4="urn:expedia:e3:data:basetypes:defn:v4" xmlns:ns3="urn:expedia:e3:ews:core:itinerary:commontypes:defn:v1">
+  <ns59:ResponseInfo>
+    <ns58:MessageInfo ns58:TransactionGUID="f472d891-3ffb-4960-96ed-2e837c2cae06" ns58:MessageGUID="f546d593-c098-4e58-837d-cae3e5351b31" ns58:MessageVersion="1.0.0" ns58:MessageNameString="com.expedia.e3.ews.core.trip.messages.defn.v1.ReadTripResponseType" ns6:CreateDateTime="2015-12-23T15:43:35.556-08:00"/>
+    <ns59:ResponseStatus>
+      <ns59:StatusCodeCategory>Success</ns59:StatusCodeCategory>
+      <ns59:StatusCodeNamespace>expedia.e3.ews.core.trip.service.v1.impl.TripService</ns59:StatusCodeNamespace>
+      <ns59:StatusCode>200</ns59:StatusCode>
+      <ns59:StatusMsg/>
+    </ns59:ResponseStatus>
+  </ns59:ResponseInfo>
+  <ns2:Trip>
+    <ns2:TripKey>
+      <ns2:TripID>BB6C9AD1-3F0F-44BF-BD78-F0681FE70BD8</ns2:TripID>
+      <ns2:TripNumber>7822027698</ns2:TripNumber>
+      <ns3:ItineraryID>
+        <ns3:TravelRecordLocator>16166488</ns3:TravelRecordLocator>
+        <ns4:LegacySiteKey>
+          <ns4:TPID>1</ns4:TPID>
+        </ns4:LegacySiteKey>
+        <ns3:ItineraryNumber>11616648817</ns3:ItineraryNumber>
+      </ns3:ItineraryID>
+    </ns2:TripKey>
+    <ns2:Title>Narita, Japan</ns2:Title>
+    <ns2:LoginAccountID>
+      <ns4:UserID>577015</ns4:UserID>
+      <ns4:SiteKey>
+        <ns4:SiteID>1</ns4:SiteID>
+      </ns4:SiteKey>
+    </ns2:LoginAccountID>
+    <ns2:AccountID>
+      <ns4:UserID>577015</ns4:UserID>
+      <ns4:LegacySiteKey>
+        <ns4:TPID>1</ns4:TPID>
+      </ns4:LegacySiteKey>
+    </ns2:AccountID>
+    <ns2:MetaDataList>
+      <ns2:MetaDataElement>
+        <ns2:Authority>TRIP</ns2:Authority>
+        <ns2:Key>tripEndDateTime</ns2:Key>
+        <ns2:Value>2016-08-05T07:00:00.000</ns2:Value>
+      </ns2:MetaDataElement>
+    </ns2:MetaDataList>
+    <ns2:EntityList>
+      <ns2:Entity>
+        <ns2:EntityID>FF9E5B5D-248D-474D-8BD4-618FFFC8C825</ns2:EntityID>
+        <ns2:Version>1</ns2:Version>
+        <ns2:MetaDataList>
+          <ns2:MetaDataElement>
+            <ns2:Authority>TRIP</ns2:Authority>
+            <ns2:Key>isE3Only</ns2:Key>
+            <ns2:Value>true</ns2:Value>
+          </ns2:MetaDataElement>
+          <ns2:MetaDataElement>
+            <ns2:Authority>TRIP</ns2:Authority>
+            <ns2:Key>omsOrderNumber</ns2:Key>
+            <ns2:Value>8001517069457</ns2:Value>
+          </ns2:MetaDataElement>
+          <ns2:MetaDataElement>
+            <ns2:Authority>TRIP</ns2:Authority>
+            <ns2:Key>TRIP_DESTINATION#TRIP_DESTINATION</ns2:Key>
+            <ns2:Value>Narita, Japan</ns2:Value>
+          </ns2:MetaDataElement>
+        </ns2:MetaDataList>
+        <ns11:DestinationExperienceProductEntity>
+          <ns31:ProductInstanceID>eaf155a7fd755446ec0b96e02019a99ecfc2a297</ns31:ProductInstanceID>
+          <ns31:ProductNaturalKey>{"version":"1.0","siteId":"1","locale":"en_US","category":"1","legacySkuId":"105333","legacyOfferingId":"27038","avGuestTypeLabelToBookingCodeMap":{"Adult":"14008"},"isPackagePath":true,"productRequestParams":{"activityID":246909,"activityItemID":251819,"activityStartDateTimeInformation":{"date":"2016-08-05","time":"05:30:00"},"allDayActivity":false,"ticketCountsByCategoryList":{"ticketCountsByCategories":[{"ticketCategoryCode":"Adult_14008","count":1}]},"productUsedWith":"STANDALONE","requestedLanguageLocale":"en_US","edxSessionDataList":{"edxSessionDatas":[{"key":"DestinationRegionID","value":"179900"}]}}}</ns31:ProductNaturalKey>
+          <ns22:TotalPrice>
+            <BasePrice>
+              <ns4:SimpleAmount>39.23</ns4:SimpleAmount>
+              <ns17:CurrencyCode>USD</ns17:CurrencyCode>
+            </BasePrice>
+          </ns22:TotalPrice>
+          <ns31:TravelerList>
+            <ns31:Traveler>
+              <ns31:IsRedeemer>true</ns31:IsRedeemer>
+              <ns23:Traveler>
+                <ns10:Person>
+                  <ns10:PersonName>
+                    <ns10:FirstName>Elmer</ns10:FirstName>
+                    <ns10:MiddleName/>
+                    <ns10:LastName>Fudd</ns10:LastName>
+                  </ns10:PersonName>
+                  <ns10:Age>
+                    <ns10:AgeCode>Adult</ns10:AgeCode>
+                  </ns10:Age>
+                </ns10:Person>
+                <ns10:ContactInformation>
+                  <ns8:PhoneList>
+                    <ns8:Phone ns8:PhoneCategoryCode="home">
+                      <ns8:PhoneCountryCode>1</ns8:PhoneCountryCode>
+                      <ns8:PhoneAreaCode>415</ns8:PhoneAreaCode>
+                      <ns8:PhoneNumber>5050490</ns8:PhoneNumber>
+                    </ns8:Phone>
+                  </ns8:PhoneList>
+                  <ns10:EmailAddressEntryList>
+                    <ns10:EmailAddressEntry ns4:Sequence="0">
+                      <ns10:EmailAddress>jmadynski@expedia.com</ns10:EmailAddress>
+                    </ns10:EmailAddressEntry>
+                  </ns10:EmailAddressEntryList>
+                </ns10:ContactInformation>
+              </ns23:Traveler>
+              <ns31:FilledBookingInformationPairList>
+                <ns31:FilledBookingInformationPair>
+                  <ns31:BookingInformationKey>supplierOfferId</ns31:BookingInformationKey>
+                  <ns31:BookingInformationValue>251819</ns31:BookingInformationValue>
+                </ns31:FilledBookingInformationPair>
+                <ns31:FilledBookingInformationPair>
+                  <ns31:BookingInformationKey>supplierOfferId</ns31:BookingInformationKey>
+                  <ns31:BookingInformationValue>251819</ns31:BookingInformationValue>
+                </ns31:FilledBookingInformationPair>
+              </ns31:FilledBookingInformationPairList>
+            </ns31:Traveler>
+          </ns31:TravelerList>
+          <ns31:ActivityStartDateTimeInformation>
+            <ns6:Date>2016-08-05T05:30:00</ns6:Date>
+            <ns6:Time>2016-08-05T05:30:00</ns6:Time>
+          </ns31:ActivityStartDateTimeInformation>
+          <ns31:ActivityEndDateTimeInformation>
+            <ns6:Date>2016-08-05T07:00:00</ns6:Date>
+            <ns6:Time>2016-08-05T07:00:00</ns6:Time>
+          </ns31:ActivityEndDateTimeInformation>
+          <ns31:AllDayActivity>false</ns31:AllDayActivity>
+          <ns11:DestinationExperienceItemEntity>
+            <ns11:OrderNumber>8001517069457</ns11:OrderNumber>
+            <ns11:OrderID>-9223372036813498489</ns11:OrderID>
+            <ns11:OrderTransactionState>1</ns11:OrderTransactionState>
+            <ns11:DestinationExperienceBookedItemEntityList>
+              <ns11:DestinationExperienceBookedItemEntity>
+                <ns11:OrderLineGUID>7c597b76-33d0-434c-a913-88acdd69bfb1</ns11:OrderLineGUID>
+                <ns11:OrderLineTransactionState>1</ns11:OrderLineTransactionState>
+                <ns31:EdxItemData>
+                  <ns31:Activity>
+                    <ns31:ActivityID>246909</ns31:ActivityID>
+                    <ns31:ActivityTitle>MISSING!!!</ns31:ActivityTitle>
+                    <ns31:ActivityTitleEnglish>Airport Limousine - Shared Coach: Narita International Airport (NRT) - Tokyo</ns31:ActivityTitleEnglish>
+                    <ns31:ActivityShortTitle>MISSING!!!</ns31:ActivityShortTitle>
+                    <ns31:ActivityShortTitleEnglish/>
+                    <ns31:ActivityDescription>Enjoy convenient and cost-effective shared transportation between Narita International Airport and your hotel aboard a coach. For transfers to and from Narita International Airport, the zones to select from include:
+
+**Zone 1**
+Select this option for destinations located in Zone 1. 
+
+**Haneda Airport**
+Available destinations:
+- Haneda Airport International Terminal, Haneda Airport Terminal 1, Haneda Airport Terminal 2 
+- Tokyo City Air Terminal (TCAT)
+
+**Tokyo Station Nihonbashi**
+Available destinations:
+- Mandarin Oriental Tokyo, Shangri-La Hotel Tokyo, Marunouchi Hotel
+- Tokyo Station (Marunouchi North Entrance), Tokyo Station (Yaesu South Entrance)
+
+**Shinjuku**
+Available destinations:
+- Hilton Tokyo, Hotel Century Southern Tower, Hotel Sunroute Plaza Shinjuku, Hyatt Regency Tokyo
+- Keio Plaza Hotel Tokyo, Park Hyatt Tokyo, Shinjuku Station, Shinjuku Washington Hotel
+
+**Ikebukuro**
+Available destinations:
+- Hotel Metropolitan Tokyo, Sunshine City Prince Hotel
+
+**Mejiro Korakuen**
+Available destinations:
+- Hotel Chinzanso Tokyo, Tokyo Dome Hotel
+
+**Kudan**
+Available destinations:
+- Hotel Grand Palace
+
+**Ginza Shiodome**
+Available destinations:
+- Conrad Tokyo, Courtyard by Marriott Tokyo Ginza Hotel, Dai-ichi Hotel Tokyo, Imperial Hotel
+- Mitsui Garden Hotel Ginza Premier, Palace Hotel Tokyo, Park Hotel Tokyo
+- Royal Park Hotel The Shiodome Tokyo, Sukiyabashi (Narita Departure Only), The Peninsula Tokyo
+
+**Akasaka**
+Available destinations:
+- Akasaka Excel Hotel Tokyu, ANA Intercontinental Tokyo, Grand Hyatt Tokyo, Hotel New Otani
+- Hotel Okura Tokyo, The Capitol Hotel Tokyu, The Ritz-Carlton, Tokyo
+
+**Shiba**
+Available destinations:
+- Andaz Tokyo, Celestine Hotel, Shiba Park Hotel, Tokyo Prince Hotel, The Prince Park Tower Tokyo
+
+**Shibuya**
+Available destinations:
+- Cerulean Tower Tokyu Hotel, Shibuya Excel Hotel Tokyu (Shibuya Mark City)
+
+**Futako Tamagawa**
+Available destinations:
+- Futako Tamagawa Station
+
+**Shinagawa/Ebisu**
+Available destinations:
+- Grand Prince Hotel New Takanawa, Grand Prince Hotel Takanawa, Keikyu EX Inn Shinagawa-Ekimae
+- Sheraton Miyako Hotel Tokyo, Shinagawa Prince Hotel, Shinagawa Station (Konan Entrance)
+- The New Sanno, The Prince Sakura Tower Tokyo, The Strings by InterContinental Tokyo
+- The Westin Tokyo, Tokyo Mariott Hotel
+
+**Takeshiba**
+Available destinations:
+- Hotel Intercontinental Tokyo Bay, Tennozu Isle (Dai-ichi Hotel Tokyo Seafort)
+
+
+**Zone 2**
+Select this option for destinations located in Zone 2. 
+
+**Takeshiba/Fukutoshin**
+Available destinations:
+- Grand Pacific Le Daiba, Hotel Nikko Tokyo, Hotel Sunroute Ariake, Tokyo Bay Ariake Washington Hotel
+
+**Kinshicho/Toyocho**
+Available destinations:
+- Hotel East 21 Tokyo , Tobu Hotel Levant Tokyo
+
+**Toyosu**
+Available destinations:
+-Toyosu Station
+
+**Asakusa**
+Available destinations:
+- Asakusa View Hotel
+
+**Shinkiba**
+Available destinations:
+- Shinkiba Station (Narita Departure Only)</ns31:ActivityDescription>
+                    <ns31:ActivityCategory>
+                      <ns31:ActivityCategoryID>1</ns31:ActivityCategoryID>
+                      <ns31:ActivityCategoryName>Shared Transfers</ns31:ActivityCategoryName>
+                    </ns31:ActivityCategory>
+                    <ns31:TripPhaseCodeList>
+                      <ns31:TripPhaseCode>Destination</ns31:TripPhaseCode>
+                    </ns31:TripPhaseCodeList>
+                    <ns31:Image>
+                      <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/e41f001daa85b0c22007ad5ddd2edc1ef24118fa.jpeg</ns31:FileURL>
+                      <ns31:ImageSize>
+                        <ns31:Height>41</ns31:Height>
+                        <ns31:Width>72</ns31:Width>
+                      </ns31:ImageSize>
+                    </ns31:Image>
+                    <ns31:ImageList>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/e41f001daa85b0c22007ad5ddd2edc1ef24118fa.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>41</ns31:Height>
+                          <ns31:Width>72</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/2a57490c3a18ddbd225c3c0c495e13d00071d9b1.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>45</ns31:Height>
+                          <ns31:Width>80</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/957fd1cdb44bd17c8186d6c13dbcb6e2f9acd45d.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>90</ns31:Height>
+                          <ns31:Width>160</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/c1cca3e992d0021e68b1a6621f2f3161ff5867a7.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>116</ns31:Height>
+                          <ns31:Width>206</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/7df3fce12592cb9c1bfe686c4a464037d4226b14.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>166</ns31:Height>
+                          <ns31:Width>295</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/e535a784391982b9fd59ef567b26557b24888e98.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>197</ns31:Height>
+                          <ns31:Width>350</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/e95d8ba684ccf1b2488ee559ff95334a08668a65.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>281</ns31:Height>
+                          <ns31:Width>500</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/20ea9e5b0021b6333135274a4c90190570ff9e23.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>563</ns31:Height>
+                          <ns31:Width>1000</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/f809c8b4d6f9b8c31def6a5536c24adf63f5b9d7.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>565</ns31:Height>
+                          <ns31:Width>1005</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/2f94073b1514c9155b9e13a5656ffe2719b4032f.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>1152</ns31:Height>
+                          <ns31:Width>2048</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                    </ns31:ImageList>
+                    <ns31:DisplayOrder>500</ns31:DisplayOrder>
+                  </ns31:Activity>
+                  <ns31:ActivityItem>
+                    <ns31:ActivityItemID>251819</ns31:ActivityItemID>
+                    <ns31:ActivityID>246909</ns31:ActivityID>
+                    <ns31:ActivityItemTitle>MISSING!!!</ns31:ActivityItemTitle>
+                    <ns31:ActivityItemTitleEnglish>Roundtrip for Hotels in Zone 1</ns31:ActivityItemTitleEnglish>
+                    <ns31:ActivityItemShortTitle>MISSING!!!</ns31:ActivityItemShortTitle>
+                    <ns31:ActivityItemShortTitleEnglish/>
+                    <ns31:ActivityItemDurationType>Typical</ns31:ActivityItemDurationType>
+                  </ns31:ActivityItem>
+                  <ns31:TotalTicketPriceByCategory>
+                    <ns31:TicketCategoryCode>Adult</ns31:TicketCategoryCode>
+                    <ns31:TicketCount>1</ns31:TicketCount>
+                    <ns31:PriceList>
+                      <ns31:Price ns4:DecimalPlaceCount="2" ns4:Decimal="3923" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Price"/>
+                      <ns31:Price ns4:DecimalPlaceCount="2" ns4:Decimal="3923" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Base"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="0" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Fee"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="0" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Tax"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="0" ns17:CurrencyCode="JPY" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="TaxNet"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="40500" ns17:CurrencyCode="JPY" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Cost"/>
+                    </ns31:PriceList>
+                  </ns31:TotalTicketPriceByCategory>
+                  <ns31:TravelerInformation>
+                    <ns31:Traveler>
+                      <ns31:IsRedeemer>true</ns31:IsRedeemer>
+                      <ns23:Traveler>
+                        <ns10:Person>
+                          <ns10:PersonName>
+                            <ns10:FirstName>Elmer</ns10:FirstName>
+                            <ns10:MiddleName/>
+                            <ns10:LastName>Fudd</ns10:LastName>
+                          </ns10:PersonName>
+                        </ns10:Person>
+                        <ns10:ContactInformation>
+                          <ns8:PhoneList>
+                            <ns8:Phone>
+                              <ns8:PhoneCountryCode/>
+                              <ns8:PhoneAreaCode/>
+                              <ns8:PhoneNumber>14155050490</ns8:PhoneNumber>
+                            </ns8:Phone>
+                          </ns8:PhoneList>
+                          <ns10:EmailAddressEntryList>
+                            <ns10:EmailAddressEntry>
+                              <ns10:EmailAddress>jmadynski@expedia.com</ns10:EmailAddress>
+                            </ns10:EmailAddressEntry>
+                          </ns10:EmailAddressEntryList>
+                        </ns10:ContactInformation>
+                      </ns23:Traveler>
+                    </ns31:Traveler>
+                  </ns31:TravelerInformation>
+                  <ns31:BookingItemID>46461842</ns31:BookingItemID>
+                  <ns31:BookingItemStateID>1</ns31:BookingItemStateID>
+                  <ns31:LegacyActivityID>27038</ns31:LegacyActivityID>
+                  <ns31:VoucherSecurityCode>105333010003923708568</ns31:VoucherSecurityCode>
+                  <ns6:StartDateTime>2016-08-05T05:30:00.000</ns6:StartDateTime>
+                  <ns6:EndDateTime>2016-08-05T07:00:00.000</ns6:EndDateTime>
+                  <ns31:BusinessModel>Merchant</ns31:BusinessModel>
+                  <ns31:VoucherInformationData>
+                    <ns31:ActivityTitle>MISSING!!!</ns31:ActivityTitle>
+                    <ns31:TicketCategoryCode>Adult</ns31:TicketCategoryCode>
+                    <ns31:SupplierProductId>4198030</ns31:SupplierProductId>
+                    <ns31:ActivityTicketSupplierReferenceCode/>
+                    <ns31:BookingDate>2015-09-16T00:00:00.000-07:00</ns31:BookingDate>
+                    <ns10:PersonName>
+                      <ns10:FirstName>Elmer</ns10:FirstName>
+                      <ns10:MiddleName/>
+                      <ns10:LastName>Fudd</ns10:LastName>
+                    </ns10:PersonName>
+                    <ns31:VendorBranchId>4479</ns31:VendorBranchId>
+                    <ns31:VendorName>Airport Limousine</ns31:VendorName>
+                    <ns31:VoucherRedemptionInfo>
+                      <ns31:SupplierBranchName>Airport Limousine</ns31:SupplierBranchName>
+                      <ns31:VoucherRedemptionInstructions/>
+                      <ns31:VoucherRedemptionLocationList>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>Narita International Airport</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:FirstAddressLine>1-1 Furugome</ns8:FirstAddressLine>
+                            <ns8:CityName>Narita</ns8:CityName>
+                            <ns8:ProvinceName>Chiba</ns8:ProvinceName>
+                            <ns8:PostalCode/>
+                            <ns8:CountryAlpha3Code>JPN</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>3577199</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>14039286</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>Tokyo City Center (Hotel Pickup)</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:CityName>Tokyo</ns8:CityName>
+                            <ns8:ProvinceName/>
+                            <ns8:PostalCode/>
+                            <ns8:CountryAlpha3Code>JPN</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>3570903</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>13973200</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                      </ns31:VoucherRedemptionLocationList>
+                      <ns31:SupplierCustomerServiceLocationList>
+                        <ns31:SupplierCustomerServiceLocation>
+                          <ns31:LocationName/>
+                          <ns10:EmailAddress/>
+                          <ns8:PhoneList>
+                            <ns8:Phone>
+                              <ns8:PhoneCountryCode>81</ns8:PhoneCountryCode>
+                              <ns8:PhoneAreaCode/>
+                              <ns8:PhoneNumber>336657220</ns8:PhoneNumber>
+                            </ns8:Phone>
+                          </ns8:PhoneList>
+                          <ns31:LocationHours/>
+                          <ns31:HoursOfOperationList>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>monday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>tuesday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>wednesday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>thursday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>friday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>saturday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>sunday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>18:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                          </ns31:HoursOfOperationList>
+                          <ns31:EdxPhoneItemList>
+                            <ns31:EdxPhoneItem>
+                              <ns8:Phone>
+                                <ns8:PhoneCountryCode>81</ns8:PhoneCountryCode>
+                                <ns8:PhoneAreaCode/>
+                                <ns8:PhoneNumber>336657220</ns8:PhoneNumber>
+                              </ns8:Phone>
+                              <ns31:PhoneUse>InformationHotline</ns31:PhoneUse>
+                              <ns31:PhoneCost>Local</ns31:PhoneCost>
+                            </ns31:EdxPhoneItem>
+                          </ns31:EdxPhoneItemList>
+                        </ns31:SupplierCustomerServiceLocation>
+                      </ns31:SupplierCustomerServiceLocationList>
+                      <ns31:ActivityLocation>
+                        <ns31:LocationName>Narita International Airport</ns31:LocationName>
+                        <ns8:Address>
+                          <ns8:FirstAddressLine>1-1 Furugome</ns8:FirstAddressLine>
+                          <ns8:CityName>Narita</ns8:CityName>
+                          <ns8:ProvinceName>Chiba</ns8:ProvinceName>
+                          <ns8:PostalCode/>
+                          <ns8:CountryAlpha3Code>JPN</ns8:CountryAlpha3Code>
+                        </ns8:Address>
+                        <ns8:LatLong ns4:EstimateBoolean="true">
+                          <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                            <ns4:Decimal>3577199</ns4:Decimal>
+                          </ns8:LatitudeAmount>
+                          <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                            <ns4:Decimal>14039286</ns4:Decimal>
+                          </ns8:LongitudeAmount>
+                        </ns8:LatLong>
+                      </ns31:ActivityLocation>
+                    </ns31:VoucherRedemptionInfo>
+                    <ns31:TermsAndConditionsText/>
+                    <ns31:VoucherBarCode>0046461842</ns31:VoucherBarCode>
+                    <ns31:ModularizedContentList>
+                      <ns31:ModularizedContent>
+                        <ContentType>short</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>instructions</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>long</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>longGroup</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>shortGroup</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>short</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>long</ContentType>
+                        <Title>Roundtrip for Hotels in Zone 1</Title>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>know_before_you_bookGroup</ContentType>
+                        <Title>Know Before You Book</Title>
+                        <Body>Partial cancellation is not available for roundtrip transfers.||Photographs are meant to illustrate vehicle type only; your vehicle may differ from what is pictured.||This transfer operates between 5:30 AM and 10:30 PM; please verify your flight times prior to selecting this option.||Children 5 and younger are complimentary if not occupying their own seat.||1 standard-size bag is allowed per person.||Wheelchair accessibility is not available.||Additional and overweight baggage (such as surfboards, bicycles, etc.) is subject to space availability and may incur an extra surcharge, which is payable to your driver at the time of service.</Body>
+                        <DisplayFormat>list</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>know_before_you_goGroup</ContentType>
+                        <Title>Know Before You Go</Title>
+                        <Body>Partial cancellation is not available for roundtrip transfers.||1 standard-size bag is allowed per person.||Gratuity is not included and is left to individual discretion.||Additional or overweight baggage (such as surfboards, bicycles, etc.) is subject to space availability and incur an extra surcharge, which is payable to your driver at the time of service.||Toll charges is included.||This transfer operates between 5:30 AM and 10:30 PM; please verify your flight times prior to selecting this option.||You don&#8217;t need to reconfirm your booking.</Body>
+                        <DisplayFormat>list</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>terms_and_conditionsGroup</ContentType>
+                        <Title>Terms and Conditions</Title>
+                        <Body>Rate is per person and is valid for shared coach transfers between Narita International Airport and Tokyo hotels only. If your hotel falls outside the zone you booked, you may need to pay an additional charge directly to the driver at the time of service. Partial cancellation is not available for roundtrip transfers.
+
+Photographs are meant to illustrate vehicle type only; your vehicle may differ from what is pictured.</Body>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>suggested_forGroup</ContentType>
+                        <Title>Suggested For</Title>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>shortGroup</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>redemption_instructionsGroup</ContentType>
+                        <Title>Redemption Instructions</Title>
+                        <Body>**Airport Pickup:**  Upon arrival, please collect your baggage and proceed through customs. Head toward the Airport Limousine counter at the Terminal building. Please present your confirmation/voucher for your transfer at the Airport Limousine customer service desk.
+
+**Hotel Pickup:** Please request from hotel staff to contact Airport Limousine to reserve your transfer.</Body>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>longGroup</ContentType>
+                        <Title>Airport Limousine - Shared Coach: Narita International Airport (NRT) - Tokyo</Title>
+                        <Body>Enjoy convenient and cost-effective shared transportation between Narita International Airport and your hotel aboard a coach. For transfers to and from Narita International Airport, the zones to select from include:
+
+**Zone 1**
+Select this option for destinations located in Zone 1. 
+
+**Haneda Airport**
+Available destinations:
+- Haneda Airport International Terminal, Haneda Airport Terminal 1, Haneda Airport Terminal 2 
+- Tokyo City Air Terminal (TCAT)
+
+**Tokyo Station Nihonbashi**
+Available destinations:
+- Mandarin Oriental Tokyo, Shangri-La Hotel Tokyo, Marunouchi Hotel
+- Tokyo Station (Marunouchi North Entrance), Tokyo Station (Yaesu South Entrance)
+
+**Shinjuku**
+Available destinations:
+- Hilton Tokyo, Hotel Century Southern Tower, Hotel Sunroute Plaza Shinjuku, Hyatt Regency Tokyo
+- Keio Plaza Hotel Tokyo, Park Hyatt Tokyo, Shinjuku Station, Shinjuku Washington Hotel
+
+**Ikebukuro**
+Available destinations:
+- Hotel Metropolitan Tokyo, Sunshine City Prince Hotel
+
+**Mejiro Korakuen**
+Available destinations:
+- Hotel Chinzanso Tokyo, Tokyo Dome Hotel
+
+**Kudan**
+Available destinations:
+- Hotel Grand Palace
+
+**Ginza Shiodome**
+Available destinations:
+- Conrad Tokyo, Courtyard by Marriott Tokyo Ginza Hotel, Dai-ichi Hotel Tokyo, Imperial Hotel
+- Mitsui Garden Hotel Ginza Premier, Palace Hotel Tokyo, Park Hotel Tokyo
+- Royal Park Hotel The Shiodome Tokyo, Sukiyabashi (Narita Departure Only), The Peninsula Tokyo
+
+**Akasaka**
+Available destinations:
+- Akasaka Excel Hotel Tokyu, ANA Intercontinental Tokyo, Grand Hyatt Tokyo, Hotel New Otani
+- Hotel Okura Tokyo, The Capitol Hotel Tokyu, The Ritz-Carlton, Tokyo
+
+**Shiba**
+Available destinations:
+- Andaz Tokyo, Celestine Hotel, Shiba Park Hotel, Tokyo Prince Hotel, The Prince Park Tower Tokyo
+
+**Shibuya**
+Available destinations:
+- Cerulean Tower Tokyu Hotel, Shibuya Excel Hotel Tokyu (Shibuya Mark City)
+
+**Futako Tamagawa**
+Available destinations:
+- Futako Tamagawa Station
+
+**Shinagawa/Ebisu**
+Available destinations:
+- Grand Prince Hotel New Takanawa, Grand Prince Hotel Takanawa, Keikyu EX Inn Shinagawa-Ekimae
+- Sheraton Miyako Hotel Tokyo, Shinagawa Prince Hotel, Shinagawa Station (Konan Entrance)
+- The New Sanno, The Prince Sakura Tower Tokyo, The Strings by InterContinental Tokyo
+- The Westin Tokyo, Tokyo Mariott Hotel
+
+**Takeshiba**
+Available destinations:
+- Hotel Intercontinental Tokyo Bay, Tennozu Isle (Dai-ichi Hotel Tokyo Seafort)
+
+
+**Zone 2**
+Select this option for destinations located in Zone 2. 
+
+**Takeshiba/Fukutoshin**
+Available destinations:
+- Grand Pacific Le Daiba, Hotel Nikko Tokyo, Hotel Sunroute Ariake, Tokyo Bay Ariake Washington Hotel
+
+**Kinshicho/Toyocho**
+Available destinations:
+- Hotel East 21 Tokyo , Tobu Hotel Levant Tokyo
+
+**Toyosu**
+Available destinations:
+-Toyosu Station
+
+**Asakusa**
+Available destinations:
+- Asakusa View Hotel
+
+**Shinkiba**
+Available destinations:
+- Shinkiba Station (Narita Departure Only)</Body>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>cancellation_addendumGroup</ContentType>
+                        <Title>Cancellation Addendum</Title>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                    </ns31:ModularizedContentList>
+                    <ns31:CancelPolicyList>
+                      <ns31:CancelPolicy>
+                        <MinHours>72</MinHours>
+                        <PercentBack>100</PercentBack>
+                        <Fee>0</Fee>
+                      </ns31:CancelPolicy>
+                    </ns31:CancelPolicyList>
+                    <ns31:FilledBookingInformationPairList/>
+                    <ns31:UseStartDate>2016-08-05T00:00:00.000</ns31:UseStartDate>
+                    <ns31:UseEndDate>2016-08-05T00:00:00.000</ns31:UseEndDate>
+                  </ns31:VoucherInformationData>
+                </ns31:EdxItemData>
+              </ns11:DestinationExperienceBookedItemEntity>
+            </ns11:DestinationExperienceBookedItemEntityList>
+          </ns11:DestinationExperienceItemEntity>
+        </ns11:DestinationExperienceProductEntity>
+      </ns2:Entity>
+    </ns2:EntityList>
+    <ns2:CreateDateTime>2015-09-17T06:34:43.357Z</ns2:CreateDateTime>
+    <ns2:UpdateDateTime>2015-10-30T15:30:14.330Z</ns2:UpdateDateTime>
+    <ns2:TripVersion>28</ns2:TripVersion>
+    <ns2:ClientInformation>
+      <ns2:ClientID>3</ns2:ClientID>
+    </ns2:ClientInformation>
+  </ns2:Trip>
+  <ns21:ReadTripDataDetails>
+    <ns21:FromCache>true</ns21:FromCache>
+    <ns21:LastUpdateDateTime>2015-10-30T15:30:14.343Z</ns21:LastUpdateDateTime>
+  </ns21:ReadTripDataDetails>
+</ns21:ReadTripResponse>
+

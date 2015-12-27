@@ -1,0 +1,932 @@
+<ns21:ReadTripResponse xmlns:ns42="urn:expedia:om:supply:messages:defn:v1" xmlns:ns41="urn:expedia:payment:system:types:v2" xmlns:ns40="urn:expedia:e3:ss:lodging:lodginginterface:messages:purchasetypes:defn:v2" xmlns:ns46="urn:expedia:e3:ss:lodging:lodginginterface:changecommontypes:defn:v1" xmlns:ns45="urn:expedia:e3:partnerlty:sterling:types:v1" xmlns:ns44="urn:expedia:e3:cpn:domain:basetypes:defn:v2" xmlns:ns43="urn:expedia:om:supply:datatype:defn:v1" xmlns:ns49="urn:expedia:e3:lty:domain:pointbanktypes:defn:v1" xmlns:ns48="urn:expedia:payment:omsadapter:types:v1" xmlns:ns47="urn:expedia:e3:ss:lodging:lodginginterface:messages:softchangetypes:defn:v1" xmlns:ns16="urn:expedia:e3:data:revitemtypes:defn:v1" xmlns:ns17="urn:expedia:e3:data:financetypes:defn:v4" xmlns:ns14="urn:expedia:e3:ss:lodging:lodginginterface:bookingcommontypes:defn:v2" xmlns:ns15="urn:expedia:e3:ss:lodging:lodginginterface:messages:availdetailtypes:defn:v3" xmlns:ns18="urn:expedia:e3:data:airtypes:defn:v6" xmlns:ns19="urn:expedia:e3:data:ancillarytypes:defn:v2" xmlns:ns12="urn:expedia:e3:ss:lodging:lodginginterface:messages:retrievetypes:defn:v1" xmlns:ns13="urn:expedia:e3:ss:lodging:lodginginterface:commontypes:defn:v4" xmlns:ns10="urn:expedia:e3:data:persontypes:defn:v4" xmlns:ns11="urn:expedia:e3:ews:core:trip:entities:defn:v2" xmlns:ns51="urn:expedia:e3:lty:domain:commontypes:defn:v1" xmlns:ns50="urn:expedia:e3:lty:domain:adaptorproxy:defn:v1" xmlns:ns53="urn:expedia:e3:lty:domain:basetypes:defn:v1" xmlns:ns52="urn:expedia:e3:lty:domain:offertypes:defn:v1" xmlns:ns55="urn:expedia:e3:cpn:domain:contentprovidertypes:defn:v1" xmlns:ns54="urn:expedia:e3:cpn:domain:activitytypes:defn:v1" xmlns:ns57="urn:expedia:e3:shop:presto:datatype:v1" xmlns:ns56="urn:expedia:e3:shop:packages:messages:changetypes:defn:v1" xmlns:ns59="urn:expedia:e3:ews:core:messages:common:defn:v1" xmlns:ns58="urn:expedia:e3:data:messagetypes:defn:v4" xmlns:ns29="urn:expedia:e3:data:cartypes:defn:v5" xmlns:ns25="urn:expedia:e3:insurance:basetypes:v2" xmlns:ns26="urn:expedia:e3:shop:packages:messages:ordertypes:defn:v1" xmlns:ns27="urn:expedia:e3:shop:packages:messages:common:defn:v3" xmlns:ns28="urn:expedia:e3:ews:core:itinerary:producttypes:defn:v2" xmlns:ns21="urn:expedia:e3:ews:core:trip:messages:defn:v1" xmlns:ns22="urn:expedia:e3:data:naturalproducttypes:defn:v1" xmlns:ns23="urn:expedia:e3:data:traveltypes:defn:v4" xmlns:ns24="urn:expedia:e3:insurance:basetypes:v1" xmlns:ns20="urn:expedia:e3:data:naturalkeytypes:defn:v1" xmlns:ns38="urn:expedia:payment:messages:v1" xmlns:ns39="urn:expedia:e3:ss:lodging:lodginginterface:messages:preparepurchasetypes:defn:v2" xmlns:ns36="urn:expedia:om:datatype:defn:v1" xmlns:ns37="urn:com:expedia:s3:cars:data:carerrortypes:defn:v2" xmlns:ns9="urn:expedia:e3:ss:lodging:lodginginterface:messages:availdetailtypes:defn:v2" xmlns:ns34="urn:expedia:payment:processor:messages:v2" xmlns:ns35="urn:expedia:e3:data:revenueoptimizationtypes:defn:v1" xmlns:ns32="urn:expedia:om:common:defn:v1" xmlns:ns33="urn:expedia:e3:data:errortypes:defn:v4" xmlns:ns5="urn:expedia:e3:ss:lodging:lodginginterface:commontypes:defn:v3" xmlns:ns30="urn:expedia:e3:data:cruise:types:v1" xmlns:ns6="urn:expedia:e3:data:timetypes:defn:v4" xmlns:ns31="urn:expedia:s3:edx:data:edxtypes:defn:v1" xmlns:ns7="urn:expedia:e3:ss:lodging:lodginginterface:bookingcommontypes:defn:v1" xmlns:ns8="urn:expedia:e3:data:placetypes:defn:v4" xmlns:ns2="urn:expedia:e3:ews:core:trip:entities:defn:v1" xmlns:ns4="urn:expedia:e3:data:basetypes:defn:v4" xmlns:ns3="urn:expedia:e3:ews:core:itinerary:commontypes:defn:v1">
+  <ns59:ResponseInfo>
+    <ns58:MessageInfo ns58:TransactionGUID="7e5ef234-53d5-4a15-aea5-f2d5812d8c75" ns58:MessageGUID="365898b8-15e1-4c07-832f-585c8f07521e" ns58:MessageVersion="1.0.0" ns58:MessageNameString="com.expedia.e3.ews.core.trip.messages.defn.v1.ReadTripResponseType" ns6:CreateDateTime="2015-12-23T15:37:17.821-08:00"/>
+    <ns59:ResponseStatus>
+      <ns59:StatusCodeCategory>Success</ns59:StatusCodeCategory>
+      <ns59:StatusCodeNamespace>expedia.e3.ews.core.trip.service.v1.impl.TripService</ns59:StatusCodeNamespace>
+      <ns59:StatusCode>200</ns59:StatusCode>
+      <ns59:StatusMsg/>
+    </ns59:ResponseStatus>
+  </ns59:ResponseInfo>
+  <ns2:Trip>
+    <ns2:TripKey>
+      <ns2:TripID>5D55D77C-E395-4CCD-B462-230658A47D9B</ns2:TripID>
+      <ns2:TripNumber>7822024975</ns2:TripNumber>
+      <ns3:ItineraryID>
+        <ns3:TravelRecordLocator>16166466</ns3:TravelRecordLocator>
+        <ns4:LegacySiteKey>
+          <ns4:TPID>1</ns4:TPID>
+        </ns4:LegacySiteKey>
+        <ns3:ItineraryNumber>11616646637</ns3:ItineraryNumber>
+      </ns3:ItineraryID>
+    </ns2:TripKey>
+    <ns2:Title>New York, United States</ns2:Title>
+    <ns2:LoginAccountID>
+      <ns4:UserID>577015</ns4:UserID>
+      <ns4:SiteKey>
+        <ns4:SiteID>1</ns4:SiteID>
+      </ns4:SiteKey>
+    </ns2:LoginAccountID>
+    <ns2:AccountID>
+      <ns4:UserID>577015</ns4:UserID>
+      <ns4:LegacySiteKey>
+        <ns4:TPID>1</ns4:TPID>
+      </ns4:LegacySiteKey>
+    </ns2:AccountID>
+    <ns2:MetaDataList>
+      <ns2:MetaDataElement>
+        <ns2:Authority>TRIP</ns2:Authority>
+        <ns2:Key>tripEndDateTime</ns2:Key>
+        <ns2:Value>2016-06-09T00:00:00.000</ns2:Value>
+      </ns2:MetaDataElement>
+    </ns2:MetaDataList>
+    <ns2:EntityList>
+      <ns2:Entity>
+        <ns2:EntityID>CA4B2A4E-A613-4314-AE1C-2DD2C92F28FD</ns2:EntityID>
+        <ns2:Version>1</ns2:Version>
+        <ns2:MetaDataList>
+          <ns2:MetaDataElement>
+            <ns2:Authority>TRIP</ns2:Authority>
+            <ns2:Key>isE3Only</ns2:Key>
+            <ns2:Value>true</ns2:Value>
+          </ns2:MetaDataElement>
+          <ns2:MetaDataElement>
+            <ns2:Authority>TRIP</ns2:Authority>
+            <ns2:Key>omsOrderNumber</ns2:Key>
+            <ns2:Value>8016977349905</ns2:Value>
+          </ns2:MetaDataElement>
+          <ns2:MetaDataElement>
+            <ns2:Authority>TRIP</ns2:Authority>
+            <ns2:Key>TRIP_DESTINATION#TRIP_DESTINATION</ns2:Key>
+            <ns2:Value>New York, United States</ns2:Value>
+          </ns2:MetaDataElement>
+        </ns2:MetaDataList>
+        <ns11:DestinationExperienceProductEntity>
+          <ns31:ProductInstanceID>caff5c47fd06f0167f1b96afbeb26af1d7ba4ae4</ns31:ProductInstanceID>
+          <ns31:ProductNaturalKey>{"version":"1.0","siteId":"1","locale":"en_US","category":"2","legacySkuId":"109121","legacyOfferingId":"20738","avGuestTypeLabelToBookingCodeMap":{"Adult":"4385"},"isPackagePath":true,"productRequestParams":{"activityID":182983,"activityItemID":262929,"activityStartDateTimeInformation":{"date":"2016-05-11","time":"00:00:00"},"allDayActivity":true,"ticketCountsByCategoryList":{"ticketCountsByCategories":[{"ticketCategoryCode":"Adult_4385","count":1}]},"productUsedWith":"STANDALONE","requestedLanguageLocale":"en_US","edxSessionDataList":{"edxSessionDatas":[{"key":"DestinationRegionID","value":"178293"}]}}}</ns31:ProductNaturalKey>
+          <ns22:TotalPrice>
+            <BasePrice>
+              <ns4:SimpleAmount>149.0</ns4:SimpleAmount>
+              <ns17:CurrencyCode>USD</ns17:CurrencyCode>
+            </BasePrice>
+          </ns22:TotalPrice>
+          <ns31:TravelerList>
+            <ns31:Traveler>
+              <ns31:IsRedeemer>true</ns31:IsRedeemer>
+              <ns23:Traveler>
+                <ns10:Person>
+                  <ns10:PersonName>
+                    <ns10:FirstName>Elmer</ns10:FirstName>
+                    <ns10:MiddleName/>
+                    <ns10:LastName>Fudd</ns10:LastName>
+                  </ns10:PersonName>
+                  <ns10:Age>
+                    <ns10:AgeCode>Adult</ns10:AgeCode>
+                  </ns10:Age>
+                </ns10:Person>
+                <ns10:ContactInformation>
+                  <ns8:PhoneList>
+                    <ns8:Phone ns8:PhoneCategoryCode="home">
+                      <ns8:PhoneCountryCode>1</ns8:PhoneCountryCode>
+                      <ns8:PhoneAreaCode>415</ns8:PhoneAreaCode>
+                      <ns8:PhoneNumber>5050490</ns8:PhoneNumber>
+                    </ns8:Phone>
+                  </ns8:PhoneList>
+                  <ns10:EmailAddressEntryList>
+                    <ns10:EmailAddressEntry ns4:Sequence="0">
+                      <ns10:EmailAddress>jmadynski@expedia.com</ns10:EmailAddress>
+                    </ns10:EmailAddressEntry>
+                  </ns10:EmailAddressEntryList>
+                </ns10:ContactInformation>
+              </ns23:Traveler>
+              <ns31:FilledBookingInformationPairList>
+                <ns31:FilledBookingInformationPair>
+                  <ns31:BookingInformationKey>supplierOfferId</ns31:BookingInformationKey>
+                  <ns31:BookingInformationValue>262929</ns31:BookingInformationValue>
+                </ns31:FilledBookingInformationPair>
+                <ns31:FilledBookingInformationPair>
+                  <ns31:BookingInformationKey>supplierOfferId</ns31:BookingInformationKey>
+                  <ns31:BookingInformationValue>262929</ns31:BookingInformationValue>
+                </ns31:FilledBookingInformationPair>
+              </ns31:FilledBookingInformationPairList>
+            </ns31:Traveler>
+          </ns31:TravelerList>
+          <ns31:ActivityStartDateTimeInformation>
+            <ns6:Date>2016-05-11T00:00:00</ns6:Date>
+            <ns6:Time>2016-05-11T00:00:00</ns6:Time>
+          </ns31:ActivityStartDateTimeInformation>
+          <ns31:ActivityEndDateTimeInformation>
+            <ns6:Date>2016-06-09T00:00:00</ns6:Date>
+            <ns6:Time>2016-06-09T00:00:00</ns6:Time>
+          </ns31:ActivityEndDateTimeInformation>
+          <ns31:AllDayActivity>false</ns31:AllDayActivity>
+          <ns11:DestinationExperienceItemEntity>
+            <ns11:OrderNumber>8016977349905</ns11:OrderNumber>
+            <ns11:OrderID>-9223372036813498511</ns11:OrderID>
+            <ns11:OrderTransactionState>1</ns11:OrderTransactionState>
+            <ns11:DestinationExperienceBookedItemEntityList>
+              <ns11:DestinationExperienceBookedItemEntity>
+                <ns11:OrderLineGUID>a8070f85-05e6-4e5c-bb98-09c045c9c22d</ns11:OrderLineGUID>
+                <ns11:OrderLineTransactionState>1</ns11:OrderLineTransactionState>
+                <ns31:EdxItemData>
+                  <ns31:Activity>
+                    <ns31:ActivityID>182983</ns31:ActivityID>
+                    <ns31:ActivityTitle>MISSING!!!</ns31:ActivityTitle>
+                    <ns31:ActivityTitleEnglish>Explorer Pass: Choose 3, 5, 7 or 10 Museums, Tours &amp; Attractions</ns31:ActivityTitleEnglish>
+                    <ns31:ActivityShortTitle>MISSING!!!</ns31:ActivityShortTitle>
+                    <ns31:ActivityShortTitleEnglish/>
+                    <ns31:ActivityDescription>Choose from over 55 of New York City's most amazing attractions, museums, and tours with this Explorer Pass and experience the city at your own pace. Enjoy access to famous locations as well as fast-track entry to some. 
+
+Grab your camera and your walking shoes and immerse yourself in New York City. Use your pass &amp; guidebook to craft your own itinerary and visit iconic locations throughout the town. Just a handful of the over 50 participating tours, museums, and attractions include the following, several of which offer front of the line privileges for Explorer Pass holders:
+
+- Top of the Rock Observation Decks
+- Empire State Building Observatory
+- Statue of Liberty &amp; Ellis Island Ferry Ticket
+- 9/11 Tribute Center &amp; Walking Tour
+- Hop-On Hop-Off Bus Tour by City Sights
+- Yankee Stadium: Classic Tour
+- Whitney Museum of American Art
+- Metropolitan Museum of Art (includes admission to the Cloisters)
+- American Museum of Natural History
+- Museum of Modern Art
+- Guggenheim Museum
+- Luna Park at Coney Island: 4-hour unlimited ride wristband
+- Saturday Night Live: The Exhibit
+- The Hunger Games: The Exhibition
+- Bike Tours and Rentals by Central Park Sightseeing 
+- New York Water Taxi Hop On Hop Off All Day Pass
+- Circle Line Statue of Liberty Cruise
+- Intrepid Sea, Air &amp; Space Museum
+- Radio City Music Hall Stage Door Tour
+- Rockefeller Center Tour
+- Bike &amp; Roll: Guided Bike Tours &amp; Rentals
+- Sex and the City Tour by On Location Tours
+- NY TV and Movie Sites Tour by On Location Tours
+- Woodbury Common Outlet Shopping Roundtrip Transportation
+- Hush Hip Hop Tours
+- The RIDE 
+- The TOUR
+
+Best of all, your Explorer Pass is valid for 30 days from first activation. During this period, you may use it on any 3, 4, 5, 7 or 10 tours and attractions, depending which pass you purchase. This means you can truly explore and enjoy the city at your own pace no matter your length of stay in the Big Apple.</ns31:ActivityDescription>
+                    <ns31:ActivityCategory>
+                      <ns31:ActivityCategoryID>2</ns31:ActivityCategoryID>
+                      <ns31:ActivityCategoryName>Attractions</ns31:ActivityCategoryName>
+                    </ns31:ActivityCategory>
+                    <ns31:TripPhaseCodeList>
+                      <ns31:TripPhaseCode>Destination</ns31:TripPhaseCode>
+                    </ns31:TripPhaseCodeList>
+                    <ns31:Image>
+                      <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/1a539e170c236ea3bbe9c2dad3de297e9c4ce732.jpeg</ns31:FileURL>
+                      <ns31:ImageSize>
+                        <ns31:Height>40</ns31:Height>
+                        <ns31:Width>72</ns31:Width>
+                      </ns31:ImageSize>
+                    </ns31:Image>
+                    <ns31:ImageList>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/1a539e170c236ea3bbe9c2dad3de297e9c4ce732.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>40</ns31:Height>
+                          <ns31:Width>72</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/64e73cb19ad1a227d4fab6d98e3b98a313f017e8.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>45</ns31:Height>
+                          <ns31:Width>80</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/763d05ec934ce70aa67c2731bc1322e92ab57aa3.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>90</ns31:Height>
+                          <ns31:Width>160</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/8fb43f7739da60f3f782cd6736cd4622acd9314b.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>116</ns31:Height>
+                          <ns31:Width>206</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/6d40e4a02b06f60b06fc940d609c94fcaf5015b5.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>166</ns31:Height>
+                          <ns31:Width>295</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/9757b7c5929399e4fa9814e246414442092de997.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>197</ns31:Height>
+                          <ns31:Width>350</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/365106d543a01932cf4c8df088cfcf4e2f816242.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>281</ns31:Height>
+                          <ns31:Width>500</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/dee70ff971fe235c6c3f6c03e5f27fabe6b2ced7.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>562</ns31:Height>
+                          <ns31:Width>1000</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/6fca773a18882a9df559abf30ee616524f484b8b.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>565</ns31:Height>
+                          <ns31:Width>1005</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/4e649b2bd98c51782c8fa8c4e8f3d76df80691d2.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>1012</ns31:Height>
+                          <ns31:Width>1800</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/8594f99cbbc8f3facc2301b87407cd090814446b.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>41</ns31:Height>
+                          <ns31:Width>72</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/d89b03695e8f1d627c6f83f9627b290ab8c0a060.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>45</ns31:Height>
+                          <ns31:Width>80</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/fad736daad16471a614b2a8268e1f4569f6a0501.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>90</ns31:Height>
+                          <ns31:Width>160</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/8ae603b6a4c5e4a5dd24bff3e652d966d5573ee4.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>116</ns31:Height>
+                          <ns31:Width>206</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/2697e14e4d78e01bcc43362dc5123176f2be8b9e.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>166</ns31:Height>
+                          <ns31:Width>295</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/ce75c9688f4e69df45e6132d7e4ac2321545ac46.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>197</ns31:Height>
+                          <ns31:Width>350</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/232c25eb533995567eb0b2f075c622703befd723.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>281</ns31:Height>
+                          <ns31:Width>500</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/62099db1a5c5af586c23d31ab374abce58ab6bde.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>563</ns31:Height>
+                          <ns31:Width>1000</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/98e015ba8cd9e4d4073254ec4a2fba2afec6026c.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>566</ns31:Height>
+                          <ns31:Width>1005</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/76da26ebade9298f6773dba0ea9e11fbfa186ab6.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>1623</ns31:Height>
+                          <ns31:Width>2884</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/f2a7efc6468bddf0db972dd41e86a1d37de668b6.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>41</ns31:Height>
+                          <ns31:Width>72</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/5c819ffee4eac29dac674083e4a1b9230eda08a3.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>45</ns31:Height>
+                          <ns31:Width>80</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/51177f74971dcc71dd41cc556dd15057a2833b2b.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>90</ns31:Height>
+                          <ns31:Width>160</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/26e33febf51d6da58ef53f16331d96d31f121921.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>116</ns31:Height>
+                          <ns31:Width>206</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/0768125f3c2d37c5a18a9169a032e231ae38c333.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>166</ns31:Height>
+                          <ns31:Width>295</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/12b31a49e4ee7c61eaf511191d606a160c1dbc40.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>197</ns31:Height>
+                          <ns31:Width>350</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/5c6b16ac3d28cad4b27fdc0cd6398afb8265a41a.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>281</ns31:Height>
+                          <ns31:Width>500</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/d2568116c5ff9270c5e6aa9b47459ac3195b9e99.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>563</ns31:Height>
+                          <ns31:Width>1000</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/eb7a8a7a2655c4f6778964a90d3417152fff1ff1.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>565</ns31:Height>
+                          <ns31:Width>1005</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/dd3594d3427b33e625ddb2da2dd5c4ee69e25edc.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>738</ns31:Height>
+                          <ns31:Width>1312</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/0d904ec04dc67ecd25e9e6beb4aa504b2454368f.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>41</ns31:Height>
+                          <ns31:Width>72</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/f243a6bb8980ccf12681ac7fb7ec4cc6c7d3bf50.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>45</ns31:Height>
+                          <ns31:Width>80</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/e0fc65e73eef637717bb3b33a476761930b63948.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>90</ns31:Height>
+                          <ns31:Width>160</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/3054e74c0ed968439a0a07aa6cb575328f5f4619.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>116</ns31:Height>
+                          <ns31:Width>206</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/b531f165d740980738d3511a02393c761886f571.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>166</ns31:Height>
+                          <ns31:Width>295</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/e673c2c60441188f1274bbdf566c9ed71d2a08e9.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>197</ns31:Height>
+                          <ns31:Width>350</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/a7d75b4e4a5e020815b5f2ca45faeebc0eead44f.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>281</ns31:Height>
+                          <ns31:Width>500</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/cffde9ff4b962d6c9014f1ae8634458096a66e0d.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>563</ns31:Height>
+                          <ns31:Width>1000</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/571e2e3722cb0b77b788f26aa50dadd24c7e7861.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>565</ns31:Height>
+                          <ns31:Width>1005</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/11a0993b85197575eb58404e526a0fdecd9714b1.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>1800</ns31:Height>
+                          <ns31:Width>3200</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/5478a8546155e46cdd9b267982652522a046c90d.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>41</ns31:Height>
+                          <ns31:Width>72</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/3a8ba27352ecfba60363cf61aee35486b7858cc0.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>90</ns31:Height>
+                          <ns31:Width>160</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/2c160b045fb19e68b887d05b62bb8670fd4a881c.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>116</ns31:Height>
+                          <ns31:Width>206</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/d7464f5c65361cb36b43d74a1bedae89a4222a33.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>197</ns31:Height>
+                          <ns31:Width>350</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/d30e34e18f45a086b29e3bc2fd7d08cfbd827484.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>281</ns31:Height>
+                          <ns31:Width>500</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/c34a8a75f7c013eb08a7fc6da951515ae6a985da.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>563</ns31:Height>
+                          <ns31:Width>1000</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                      <ns31:Image>
+                        <ns31:FileURL>https://s3.amazonaws.com/mediavault.le/media/fb76a4d9cb2b7615f9f73ad037e8a39740191347.jpeg</ns31:FileURL>
+                        <ns31:ImageSize>
+                          <ns31:Height>580</ns31:Height>
+                          <ns31:Width>1031</ns31:Width>
+                        </ns31:ImageSize>
+                      </ns31:Image>
+                    </ns31:ImageList>
+                    <ns31:DisplayOrder>32</ns31:DisplayOrder>
+                  </ns31:Activity>
+                  <ns31:ActivityItem>
+                    <ns31:ActivityItemID>262929</ns31:ActivityItemID>
+                    <ns31:ActivityID>182983</ns31:ActivityID>
+                    <ns31:ActivityItemTitle>MISSING!!!</ns31:ActivityItemTitle>
+                    <ns31:ActivityItemTitleEnglish>Explorer Pass - 7 Attractions &amp; Tours</ns31:ActivityItemTitleEnglish>
+                    <ns31:ActivityItemShortTitle>MISSING!!!</ns31:ActivityItemShortTitle>
+                    <ns31:ActivityItemShortTitleEnglish/>
+                    <ns31:ActivityItemDurationType>Actual</ns31:ActivityItemDurationType>
+                  </ns31:ActivityItem>
+                  <ns31:TotalTicketPriceByCategory>
+                    <ns31:TicketCategoryCode>Adult</ns31:TicketCategoryCode>
+                    <ns31:TicketCount>1</ns31:TicketCount>
+                    <ns31:PriceList>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="1490" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Price"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="1490" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Base"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="0" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Fee"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="0" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Tax"/>
+                      <ns31:Price ns4:DecimalPlaceCount="1" ns4:Decimal="0" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="TaxNet"/>
+                      <ns31:Price ns4:DecimalPlaceCount="2" ns4:Decimal="11175" ns17:CurrencyCode="USD" ns17:FinanceApplicationUnitCount="1" ns17:FinanceCategoryCode="Cost"/>
+                    </ns31:PriceList>
+                  </ns31:TotalTicketPriceByCategory>
+                  <ns31:TravelerInformation>
+                    <ns31:Traveler>
+                      <ns31:IsRedeemer>true</ns31:IsRedeemer>
+                      <ns23:Traveler>
+                        <ns10:Person>
+                          <ns10:PersonName>
+                            <ns10:FirstName>Elmer</ns10:FirstName>
+                            <ns10:MiddleName/>
+                            <ns10:LastName>Fudd</ns10:LastName>
+                          </ns10:PersonName>
+                        </ns10:Person>
+                        <ns10:ContactInformation>
+                          <ns8:PhoneList>
+                            <ns8:Phone>
+                              <ns8:PhoneCountryCode/>
+                              <ns8:PhoneAreaCode/>
+                              <ns8:PhoneNumber>14155050490</ns8:PhoneNumber>
+                            </ns8:Phone>
+                          </ns8:PhoneList>
+                          <ns10:EmailAddressEntryList>
+                            <ns10:EmailAddressEntry>
+                              <ns10:EmailAddress>jmadynski@expedia.com</ns10:EmailAddress>
+                            </ns10:EmailAddressEntry>
+                          </ns10:EmailAddressEntryList>
+                        </ns10:ContactInformation>
+                      </ns23:Traveler>
+                    </ns31:Traveler>
+                  </ns31:TravelerInformation>
+                  <ns31:BookingItemID>46461841</ns31:BookingItemID>
+                  <ns31:BookingItemStateID>1</ns31:BookingItemStateID>
+                  <ns31:LegacyActivityID>20738</ns31:LegacyActivityID>
+                  <ns31:VoucherSecurityCode>109121010001490708568</ns31:VoucherSecurityCode>
+                  <ns6:StartDateTime>2016-05-11T00:00:00.000</ns6:StartDateTime>
+                  <ns6:EndDateTime>2016-06-09T00:00:00.000</ns6:EndDateTime>
+                  <ns31:BusinessModel>Merchant</ns31:BusinessModel>
+                  <ns31:VoucherInformationData>
+                    <ns31:ActivityTitle>MISSING!!!</ns31:ActivityTitle>
+                    <ns31:TicketCategoryCode>Adult</ns31:TicketCategoryCode>
+                    <ns31:SupplierProductId>15863</ns31:SupplierProductId>
+                    <ns31:ActivityTicketSupplierReferenceCode/>
+                    <ns31:BookingDate>2015-09-16T00:00:00.000-07:00</ns31:BookingDate>
+                    <ns10:PersonName>
+                      <ns10:FirstName>Elmer</ns10:FirstName>
+                      <ns10:MiddleName/>
+                      <ns10:LastName>Fudd</ns10:LastName>
+                    </ns10:PersonName>
+                    <ns31:VendorBranchId>4095</ns31:VendorBranchId>
+                    <ns31:VendorName>Smart Destinations - New York Explorer Pass</ns31:VendorName>
+                    <ns31:VoucherRedemptionInfo>
+                      <ns31:SupplierBranchName>NYC Explorer Pass</ns31:SupplierBranchName>
+                      <ns31:VoucherRedemptionInstructions/>
+                      <ns31:VoucherRedemptionLocationList>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>Central Park Sightseeing</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:FirstAddressLine>56 West 56th Street, near 6th Avenue</ns8:FirstAddressLine>
+                            <ns8:CityName>New York</ns8:CityName>
+                            <ns8:ProvinceName>New York</ns8:ProvinceName>
+                            <ns8:PostalCode>10019</ns8:PostalCode>
+                            <ns8:CountryAlpha3Code>USA</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>4076327</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>-7397713</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>Planet Hollywood - CitySights NY Desk</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:FirstAddressLine>1540 Broadway at 45th Street</ns8:FirstAddressLine>
+                            <ns8:CityName>New York</ns8:CityName>
+                            <ns8:ProvinceName>NY</ns8:ProvinceName>
+                            <ns8:PostalCode>10036</ns8:PostalCode>
+                            <ns8:CountryAlpha3Code>USA</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>4075815</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>-7398505</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>Discovery Times Square</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:FirstAddressLine>226 West 44th Street, near Broadway</ns8:FirstAddressLine>
+                            <ns8:CityName>New York</ns8:CityName>
+                            <ns8:ProvinceName>NY</ns8:ProvinceName>
+                            <ns8:PostalCode>10036</ns8:PostalCode>
+                            <ns8:CountryAlpha3Code>USA</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>4075766</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>-7398711</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>Brooklyn Bridge Sightseeing</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:FirstAddressLine>110 South Street
+near South Street Seaport</ns8:FirstAddressLine>
+                            <ns8:CityName>New York</ns8:CityName>
+                            <ns8:ProvinceName>New York</ns8:ProvinceName>
+                            <ns8:PostalCode>10038</ns8:PostalCode>
+                            <ns8:CountryAlpha3Code>USA</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>4070543</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>-7400288</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                        <ns31:VoucherRedemptionLocation>
+                          <ns31:LocationName>New York Water Taxi/Circle Line Downtown</ns31:LocationName>
+                          <ns8:Address>
+                            <ns8:FirstAddressLine>Circle Downtown Booth
+89 South Street Pier 16, South Street Seaport</ns8:FirstAddressLine>
+                            <ns8:CityName>New York</ns8:CityName>
+                            <ns8:ProvinceName>New York</ns8:ProvinceName>
+                            <ns8:PostalCode>10038</ns8:PostalCode>
+                            <ns8:CountryAlpha3Code>USA</ns8:CountryAlpha3Code>
+                          </ns8:Address>
+                          <ns8:LatLong ns4:EstimateBoolean="true">
+                            <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>4070715</ns4:Decimal>
+                            </ns8:LatitudeAmount>
+                            <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                              <ns4:Decimal>-7400210</ns4:Decimal>
+                            </ns8:LongitudeAmount>
+                          </ns8:LatLong>
+                        </ns31:VoucherRedemptionLocation>
+                      </ns31:VoucherRedemptionLocationList>
+                      <ns31:SupplierCustomerServiceLocationList>
+                        <ns31:SupplierCustomerServiceLocation>
+                          <ns31:LocationName>New York Explorer Pass Customer Service</ns31:LocationName>
+                          <ns10:EmailAddress/>
+                          <ns8:PhoneList>
+                            <ns8:Phone>
+                              <ns8:PhoneCountryCode>1</ns8:PhoneCountryCode>
+                              <ns8:PhoneAreaCode>800</ns8:PhoneAreaCode>
+                              <ns8:PhoneNumber>887 9103</ns8:PhoneNumber>
+                            </ns8:Phone>
+                          </ns8:PhoneList>
+                          <ns31:LocationHours/>
+                          <ns31:HoursOfOperationList>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>monday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>tuesday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>wednesday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>thursday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>friday</ns31:DayOfWeek>
+                              <ns31:StartTime>09:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>saturday</ns31:DayOfWeek>
+                              <ns31:StartTime>08:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                            <ns31:HoursOfOperation>
+                              <ns31:DayOfWeek>sunday</ns31:DayOfWeek>
+                              <ns31:StartTime>08:00:00</ns31:StartTime>
+                              <ns31:EndTime>20:00:00</ns31:EndTime>
+                            </ns31:HoursOfOperation>
+                          </ns31:HoursOfOperationList>
+                          <ns31:EdxPhoneItemList>
+                            <ns31:EdxPhoneItem>
+                              <ns8:Phone>
+                                <ns8:PhoneCountryCode>1</ns8:PhoneCountryCode>
+                                <ns8:PhoneAreaCode>800</ns8:PhoneAreaCode>
+                                <ns8:PhoneNumber>887 9103</ns8:PhoneNumber>
+                              </ns8:Phone>
+                              <ns31:PhoneUse>BusinessHours</ns31:PhoneUse>
+                              <ns31:PhoneCost>TollFree</ns31:PhoneCost>
+                            </ns31:EdxPhoneItem>
+                          </ns31:EdxPhoneItemList>
+                        </ns31:SupplierCustomerServiceLocation>
+                      </ns31:SupplierCustomerServiceLocationList>
+                      <ns31:ActivityLocation>
+                        <ns31:LocationName/>
+                        <ns8:Address>
+                          <ns8:CityName>New York</ns8:CityName>
+                          <ns8:ProvinceName>NY</ns8:ProvinceName>
+                          <ns8:PostalCode/>
+                          <ns8:CountryAlpha3Code>USA</ns8:CountryAlpha3Code>
+                        </ns8:Address>
+                        <ns8:LatLong ns4:EstimateBoolean="true">
+                          <ns8:LatitudeAmount ns4:DecimalPlaceCount="5">
+                            <ns4:Decimal>4076466</ns4:Decimal>
+                          </ns8:LatitudeAmount>
+                          <ns8:LongitudeAmount ns4:DecimalPlaceCount="5">
+                            <ns4:Decimal>-7397952</ns4:Decimal>
+                          </ns8:LongitudeAmount>
+                        </ns8:LatLong>
+                      </ns31:ActivityLocation>
+                    </ns31:VoucherRedemptionInfo>
+                    <ns31:TermsAndConditionsText/>
+                    <ns31:VoucherBarCode>0046461841</ns31:VoucherBarCode>
+                    <ns31:ModularizedContentList>
+                      <ns31:ModularizedContent>
+                        <ContentType>short</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>instructions</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>long</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>longGroup</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>shortGroup</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>html</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>short</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>long</ContentType>
+                        <Title>Explorer Pass - 7 Attractions &amp; Tours</Title>
+                        <Body>Your Go Card is valid for 30 days from first activation. You may use it on any 7 attractions or tours during this period. **Plus save 15% on Central Park Carriage Rides and 20% on Pedicab Rides valid for redemptions made through August 31, 2015 at Central Park Sightseeing.**</Body>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>highlightsGroup</ContentType>
+                        <Title>Highlights</Title>
+                        <Body>Choice of admission of up to 10 area attractions &amp; museums||Over 55 area museums, tours &amp; attractions to choose from||Explorer Pass Guidebook for navigating the city||Sightseeing throughout the Big Apple at your own pace||Save up to 45% off retail prices on admission</Body>
+                        <DisplayFormat>list</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>inclusionsGroup</ContentType>
+                        <Title>Inclusions</Title>
+                        <Body>Admission to 3, 4, 5, 7, or 10 tours, museums, &amp; attractions from a list of over 50||Explorer Pass Guidebook in English||Discounts at local shops and restaurants</Body>
+                        <DisplayFormat>list</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>know_before_you_bookGroup</ContentType>
+                        <Title>Know Before You Book</Title>
+                        <Body>Children 2 and younger are complimentary at most attractions.||Advance reservations may be made for tours included on the pass; mention you are a New York City Explorer Pass holder.||Your Explorer Pass is valid for 30 days from first activation.||**Save 15% on Central Park Carriage Rides and 20% on Pedicab Rides valid for redemptions made through August 31, 2015 at Central Park Sightseeing.**</Body>
+                        <DisplayFormat>list</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>know_before_you_goGroup</ContentType>
+                        <Title>Know Before You Go</Title>
+                        <Body>Hours of operation vary; please check before you go.||Advance reservations may be made for tours included on the pass; mention you are a New York Explorer Card holder.||Your Explorer Pass is valid for 30 days from first activation.||**Save 15% on Central Park Carriage Rides and 20% on Pedicab Rides valid for redemptions made through August 31, 2015 at Central Park Sightseeing.**</Body>
+                        <DisplayFormat>list</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>terms_and_conditionsGroup</ContentType>
+                        <Title>Terms and Conditions</Title>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>suggested_forGroup</ContentType>
+                        <Title>Suggested For</Title>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>shortGroup</ContentType>
+                        <Title/>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>redemption_instructionsGroup</ContentType>
+                        <Title>Redemption Instructions</Title>
+                        <Body>Upon arrival at one of the redemption locations, please present your confirmation/voucher and photo ID in exchange for your activity.</Body>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>longGroup</ContentType>
+                        <Title>Explorer Pass: Choose 3, 5, 7 or 10 Museums, Tours &amp; Attractions</Title>
+                        <Body>Choose from over 55 of New York City's most amazing attractions, museums, and tours with this Explorer Pass and experience the city at your own pace. Enjoy access to famous locations as well as fast-track entry to some. 
+
+Grab your camera and your walking shoes and immerse yourself in New York City. Use your pass &amp; guidebook to craft your own itinerary and visit iconic locations throughout the town. Just a handful of the over 50 participating tours, museums, and attractions include the following, several of which offer front of the line privileges for Explorer Pass holders:
+
+- Top of the Rock Observation Decks
+- Empire State Building Observatory
+- Statue of Liberty &amp; Ellis Island Ferry Ticket
+- 9/11 Tribute Center &amp; Walking Tour
+- Hop-On Hop-Off Bus Tour by City Sights
+- Yankee Stadium: Classic Tour
+- Whitney Museum of American Art
+- Metropolitan Museum of Art (includes admission to the Cloisters)
+- American Museum of Natural History
+- Museum of Modern Art
+- Guggenheim Museum
+- Luna Park at Coney Island: 4-hour unlimited ride wristband
+- Saturday Night Live: The Exhibit
+- The Hunger Games: The Exhibition
+- Bike Tours and Rentals by Central Park Sightseeing 
+- New York Water Taxi Hop On Hop Off All Day Pass
+- Circle Line Statue of Liberty Cruise
+- Intrepid Sea, Air &amp; Space Museum
+- Radio City Music Hall Stage Door Tour
+- Rockefeller Center Tour
+- Bike &amp; Roll: Guided Bike Tours &amp; Rentals
+- Sex and the City Tour by On Location Tours
+- NY TV and Movie Sites Tour by On Location Tours
+- Woodbury Common Outlet Shopping Roundtrip Transportation
+- Hush Hip Hop Tours
+- The RIDE 
+- The TOUR
+
+Best of all, your Explorer Pass is valid for 30 days from first activation. During this period, you may use it on any 3, 4, 5, 7 or 10 tours and attractions, depending which pass you purchase. This means you can truly explore and enjoy the city at your own pace no matter your length of stay in the Big Apple.</Body>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                      <ns31:ModularizedContent>
+                        <ContentType>cancellation_addendumGroup</ContentType>
+                        <Title>Cancellation Addendum</Title>
+                        <Body/>
+                        <DisplayFormat>plaintext</DisplayFormat>
+                      </ns31:ModularizedContent>
+                    </ns31:ModularizedContentList>
+                    <ns31:CancelPolicyList>
+                      <ns31:CancelPolicy>
+                        <MinHours>72</MinHours>
+                        <PercentBack>100</PercentBack>
+                        <Fee>0</Fee>
+                      </ns31:CancelPolicy>
+                    </ns31:CancelPolicyList>
+                    <ns31:FilledBookingInformationPairList/>
+                    <ns31:UseStartDate>2016-05-11T00:00:00.000</ns31:UseStartDate>
+                    <ns31:UseEndDate>2016-06-09T00:00:00.000</ns31:UseEndDate>
+                  </ns31:VoucherInformationData>
+                </ns31:EdxItemData>
+              </ns11:DestinationExperienceBookedItemEntity>
+            </ns11:DestinationExperienceBookedItemEntityList>
+          </ns11:DestinationExperienceItemEntity>
+        </ns11:DestinationExperienceProductEntity>
+      </ns2:Entity>
+    </ns2:EntityList>
+    <ns2:CreateDateTime>2015-09-17T06:31:21.170Z</ns2:CreateDateTime>
+    <ns2:UpdateDateTime>2015-10-30T15:30:11.130Z</ns2:UpdateDateTime>
+    <ns2:TripVersion>30</ns2:TripVersion>
+    <ns2:ClientInformation>
+      <ns2:ClientID>3</ns2:ClientID>
+    </ns2:ClientInformation>
+  </ns2:Trip>
+  <ns21:ReadTripDataDetails>
+    <ns21:FromCache>true</ns21:FromCache>
+    <ns21:LastUpdateDateTime>2015-10-30T15:30:11.133Z</ns21:LastUpdateDateTime>
+  </ns21:ReadTripDataDetails>
+</ns21:ReadTripResponse>
+
