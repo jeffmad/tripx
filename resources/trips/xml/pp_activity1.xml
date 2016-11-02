@@ -135,7 +135,7 @@
                     <ns31:ActivityTitleEnglish>Explorer Pass: Choose 3, 5, 7 or 10 Museums, Tours &amp; Attractions</ns31:ActivityTitleEnglish>
                     <ns31:ActivityShortTitle>MISSING!!!</ns31:ActivityShortTitle>
                     <ns31:ActivityShortTitleEnglish/>
-                    <ns31:ActivityDescription>Choose from over 55 of New York City's most amazing attractions, museums, and tours with this Explorer Pass and experience the city at your own pace. Enjoy access to famous locations as well as fast-track entry to some. 
+                    <ns31:ActivityDescription>Choose from over 55 of New York City's most amazing attractions, museums, and tours with this Explorer Pass and experience the city at your own pace. Enjoy access to famous locations as well as fast-track entry to some.
 
 Grab your camera and your walking shoes and immerse yourself in New York City. Use your pass &amp; guidebook to craft your own itinerary and visit iconic locations throughout the town. Just a handful of the over 50 participating tours, museums, and attractions include the following, several of which offer front of the line privileges for Explorer Pass holders:
 
@@ -153,7 +153,7 @@ Grab your camera and your walking shoes and immerse yourself in New York City. U
 - Luna Park at Coney Island: 4-hour unlimited ride wristband
 - Saturday Night Live: The Exhibit
 - The Hunger Games: The Exhibition
-- Bike Tours and Rentals by Central Park Sightseeing 
+- Bike Tours and Rentals by Central Park Sightseeing
 - New York Water Taxi Hop On Hop Off All Day Pass
 - Circle Line Statue of Liberty Cruise
 - Intrepid Sea, Air &amp; Space Museum
@@ -164,7 +164,7 @@ Grab your camera and your walking shoes and immerse yourself in New York City. U
 - NY TV and Movie Sites Tour by On Location Tours
 - Woodbury Common Outlet Shopping Roundtrip Transportation
 - Hush Hip Hop Tours
-- The RIDE 
+- The RIDE
 - The TOUR
 
 Best of all, your Explorer Pass is valid for 30 days from first activation. During this period, you may use it on any 3, 4, 5, 7 or 10 tours and attractions, depending which pass you purchase. This means you can truly explore and enjoy the city at your own pace no matter your length of stay in the Big Apple.</ns31:ActivityDescription>
@@ -857,7 +857,7 @@ near South Street Seaport</ns8:FirstAddressLine>
                       <ns31:ModularizedContent>
                         <ContentType>longGroup</ContentType>
                         <Title>Explorer Pass: Choose 3, 5, 7 or 10 Museums, Tours &amp; Attractions</Title>
-                        <Body>Choose from over 55 of New York City's most amazing attractions, museums, and tours with this Explorer Pass and experience the city at your own pace. Enjoy access to famous locations as well as fast-track entry to some. 
+                        <Body>Choose from over 55 of New York City's most amazing attractions, museums, and tours with this Explorer Pass and experience the city at your own pace. Enjoy access to famous locations as well as fast-track entry to some.
 
 Grab your camera and your walking shoes and immerse yourself in New York City. Use your pass &amp; guidebook to craft your own itinerary and visit iconic locations throughout the town. Just a handful of the over 50 participating tours, museums, and attractions include the following, several of which offer front of the line privileges for Explorer Pass holders:
 
@@ -875,7 +875,7 @@ Grab your camera and your walking shoes and immerse yourself in New York City. U
 - Luna Park at Coney Island: 4-hour unlimited ride wristband
 - Saturday Night Live: The Exhibit
 - The Hunger Games: The Exhibition
-- Bike Tours and Rentals by Central Park Sightseeing 
+- Bike Tours and Rentals by Central Park Sightseeing
 - New York Water Taxi Hop On Hop Off All Day Pass
 - Circle Line Statue of Liberty Cruise
 - Intrepid Sea, Air &amp; Space Museum
@@ -886,7 +886,7 @@ Grab your camera and your walking shoes and immerse yourself in New York City. U
 - NY TV and Movie Sites Tour by On Location Tours
 - Woodbury Common Outlet Shopping Roundtrip Transportation
 - Hush Hip Hop Tours
-- The RIDE 
+- The RIDE
 - The TOUR
 
 Best of all, your Explorer Pass is valid for 30 days from first activation. During this period, you may use it on any 3, 4, 5, 7 or 10 tours and attractions, depending which pass you purchase. This means you can truly explore and enjoy the city at your own pace no matter your length of stay in the Big Apple.</Body>
@@ -929,4 +929,3 @@ Best of all, your Explorer Pass is valid for 30 days from first activation. Duri
     <ns21:LastUpdateDateTime>2015-10-30T15:30:11.133Z</ns21:LastUpdateDateTime>
   </ns21:ReadTripDataDetails>
 </ns21:ReadTripResponse>
-

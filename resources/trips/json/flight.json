@@ -1,0 +1,371 @@
+{
+  "apiVersion": "1.0",
+  "responseType": "TRIP_DETAILS",
+  "responseData": {
+    "levelOfDetail": "FULL",
+    "tripId": "de36c21d-fb51-4afb-bf6e-f28eca811b2c",
+    "webDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/trips/11657586156",
+    "tripNumber": 11657586156,
+    "title": "Denver",
+    "updateTripNameDescPathURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/de36c21d-fb51-4afb-bf6e-f28eca811b2c/updateTripNameDescription",
+    "startTime": {
+      "raw": "2016-05-09T17:50:00-07:00",
+      "localized": "May 9, 2016 5:50:00 PM",
+      "epochSeconds": 1462841400,
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "5/9/2016",
+      "localizedMediumDate": "May 9",
+      "localizedFullDate": "Mon, May 9",
+      "localizedLongDate": "May 9, 2016"
+    },
+    "endTime": {
+      "raw": "2016-05-11T23:47:00-07:00",
+      "localized": "May 11, 2016 11:47:00 PM",
+      "epochSeconds": 1463035620,
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "5/11/2016",
+      "localizedMediumDate": "May 11",
+      "localizedFullDate": "Wed, May 11",
+      "localizedLongDate": "May 11, 2016"
+    },
+    "tripCreatedTime": {
+      "raw": "2015-12-31T05:39:20Z",
+      "localized": "Dec 31, 2015 5:39:20 AM",
+      "epochSeconds": 1451540360,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Thu, 31 Dec"
+    },
+    "tripUpdatedTime": {
+      "raw": "2015-12-31T05:40:20Z",
+      "localized": "Dec 31, 2015 5:40:20 AM",
+      "epochSeconds": 1451540420,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Thu, 31 Dec"
+    },
+    "tripCacheUpdatedTime": {
+      "raw": "2015-12-31T05:40:34Z",
+      "localized": "Dec 31, 2015 5:40:34 AM",
+      "epochSeconds": 1451540434,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Thu, 31 Dec"
+    },
+    "bookingStatus": "BOOKED",
+    "rewards": {
+      "totalPoints": 61.00,
+      "basePoints": 55.00,
+      "bonusPoints": [
+        {
+          "m_pointValue": 6.00,
+          "m_pointType": "offerPoint",
+          "m_pointDescription": "+silver Bonus Offer",
+          "m_status": "PENDING"
+        }
+      ],
+      "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+      "viewStatementURL": "/user/rewards"
+    },
+    "sharableDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/shared/sAi8Xv7wUXwdvGdCbWsHJMCAMVsQeP0AK-yNUo3Gm5kyjX79a3xCxT4mUnPB2sfZfnz9AjHJBZY8LPKn-Baq2BfE",
+    "airAttachQualificationInfo": {
+      "airAttachQualified": true,
+      "offerExpires": "2016-01-19T21:39:20.590-08:00",
+      "offerExpiresTime": {
+        "raw": "2016-01-19T21:39:20-08:00",
+        "localized": "Jan 19, 2016 9:39:20 PM",
+        "epochSeconds": 1453268360,
+        "timeZoneOffsetSeconds": -28800,
+        "localizedShortDate": "1/19/16",
+        "localizedMediumDate": "Jan 19, 2016",
+        "localizedFullDate": "Tuesday, January 19, 2016",
+        "localizedLongDate": "January 19, 2016"
+      }
+    },
+    "customerSupport": {
+      "customerSupportURL": "http://www.expedia.com/service/",
+      "customerSupportPhoneInfo": [
+        "Call Expedia+ silver Priority Customer Care at 1-866-230-3837 or 1-417-520-5298.",
+        "For faster service, mention <strong>itinerary #11657586156 </strong>"
+      ],
+      "customerSupportPhoneNumberDomestic": "+1-866-230-3837",
+      "customerSupportPhoneNumberInternational": "+1-417-520-5298",
+      "customerSupportPhoneInfoForEmail": [
+        "Call Expedia+ silver Priority Customer Care at 1-866-230-3837 or 1-417-520-5298.",
+        "For faster service, mention <strong>itinerary #11657586156 </strong>"
+      ],
+      "termsAndConditionsURL": ""
+    },
+    "isBookedUsingForeignCurrency": false,
+    "flights": [
+      {
+        "uniqueID": "D42A5982-9D4A-4053-AAC7-BACA1B68EF90_0",
+        "bookingStatus": "BOOKED",
+        "bookingStatusText": "Booked",
+        "bookingStatusMessage": "Your ticket is not yet confirmed. We are confirming it with the airline and will update your online itinerary within 24 hours.",
+        "ticketingStatus": "INPROGRESS",
+        "orderNumber": "8006444095650",
+        "updateFrequentFlyerPathURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/de36c21d-fb51-4afb-bf6e-f28eca811b2c/updateFrequentFlyerInformation",
+        "orderLineNumber": "5b43ad82-f9b2-42d6-b88c-bbaa2a30d668",
+        "confirmationNumbers": [
+          {
+            "airlineName": "United",
+            "number": "I73DRD"
+          }
+        ],
+        "paymentModel": "MERCHANT",
+        "fareType": "NAKED_NET",
+        "flightType": "ROUND_TRIP",
+        "isInternational": false,
+        "fareTotal": {
+          "subTotal": "276.2",
+          "subTotalFormatted": "$276.20",
+          "currency": "USD",
+          "base": "231.38",
+          "baseFormatted": "$231.38",
+          "taxes": "44.82",
+          "taxesFormatted": "$44.82",
+          "total": "276.2",
+          "totalFormatted": "$276.20"
+        },
+        "farePerPassenger": [
+          {
+            "passengerIndex": 0,
+            "passengerTypeCode": "ADULT",
+            "passengerTypeCodeLocalized": "Adult",
+            "currency": "USD",
+            "base": "231.38",
+            "baseFormatted": "$231.38",
+            "taxes": "44.82",
+            "taxesFormatted": "$44.82",
+            "fees": [
+              {
+                "localizedName": "Transportation Tax",
+                "amount": "16.62",
+                "amountFormatted": "$16.62"
+              },
+              {
+                "localizedName": "Flight Segment Tax",
+                "amount": "8.0",
+                "amountFormatted": "$8.00"
+              },
+              {
+                "localizedName": "Passenger Civil Aviation Security Service Fee",
+                "amount": "11.2",
+                "amountFormatted": "$11.20"
+              },
+              {
+                "localizedName": "Passenger Facility Charge",
+                "amount": "9.0",
+                "amountFormatted": "$9.00"
+              }
+            ],
+            "total": "276.2",
+            "totalFormatted": "$276.20"
+          }
+        ],
+        "isSplitTicket": false,
+        "fulfillmentMethod": "ETICKET",
+        "passengers": [
+          {
+            "typeCode": "ADULT",
+            "typeLocalized": "Adult",
+            "firstName": "Elmer",
+            "lastName": "Fudd",
+            "fullName": "Elmer Fudd",
+            "age": 36,
+            "gender": "Male",
+            "dateOfBirth": "1980-1-1",
+            "TSARedressNumber": "",
+            "TSAKnownTravelerNumber": "",
+            "phoneNumbers": [
+              {
+                "countryCode": "1",
+                "phone": "4155050490"
+              }
+            ],
+            "ticketNumbers": [],
+            "frequentFlyerPlans": [],
+            "seats": []
+          }
+        ],
+        "brandedFareFamilyName": "",
+        "legs": [
+          {
+            "type": "NONSTOP",
+            "state": "PRE_START_4",
+            "numberOfStops": 0,
+            "airlineLogoURL": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/smUA.gif",
+            "segments": [
+              {
+                "transportationType": "FLIGHT",
+                "departureType": "FLIGHT_DEPARTURE",
+                "departureLocation": {
+                  "latitude": 47.45475,
+                  "longitude": -122.30112,
+                  "name": "Seattle - Tacoma Intl.",
+                  "longName": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                  "airportCode": "SEA",
+                  "city": "Seattle",
+                  "countryCode": "USA"
+                },
+                "departureTime": {
+                  "raw": "2016-05-09T17:50:00-07:00",
+                  "localized": "May 9, 2016 5:50:00 PM",
+                  "epochSeconds": 1462841400,
+                  "timeZoneOffsetSeconds": -25200,
+                  "localizedShortDate": "Mon, 9 May"
+                },
+                "arrivalType": "FLIGHT_ARRIVAL",
+                "arrivalLocation": {
+                  "latitude": 39.849354,
+                  "longitude": -104.672735,
+                  "name": "Denver Intl.",
+                  "longName": "Denver, CO (DEN-Denver Intl.)",
+                  "airportCode": "DEN",
+                  "airportMetroCode": "DEN",
+                  "city": "Denver",
+                  "countryCode": "USA"
+                },
+                "arrivalTime": {
+                  "raw": "2016-05-09T21:22:00-06:00",
+                  "localized": "May 9, 2016 9:22:00 PM",
+                  "epochSeconds": 1462850520,
+                  "timeZoneOffsetSeconds": -21600,
+                  "localizedShortDate": "Mon, 9 May"
+                },
+                "airlineCode": "UA",
+                "externalAirlineCode": "UA",
+                "airlineName": "United",
+                "operatedByAirCarrierName": "",
+                "confirmationAirline": "United",
+                "confirmationNUmber": "I73DRD",
+                "flightNumber": "742",
+                "equipmentCode": "320",
+                "equipmentDescription": "Airbus A320",
+                "formattedLayoverDuration": "",
+                "distance": 1017,
+                "distanceUnits": "mi",
+                "duration": "PT2H32M",
+                "formattedDuration": "2h 32m",
+                "bookingCode": "G",
+                "cabinCode": "coach",
+                "cabinCodeLocalized": "Economy / Coach",
+                "isSeatMapAvailable": true,
+                "flightIdForSeatMap": "D42A5982-9D4A-4053-AAC7-BACA1B68EF90_0_L1_S1_1",
+                "status": "UNKNOWN",
+                "airSegmentStatusCode": "HK",
+                "isHidden": false
+              }
+            ],
+            "sharableFlightLegURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/shared/yUnbwJnCM4P2zF6FkwJO-8CAlfN-nO_ZL0NrbIKxUJG6L38NL9c2FcAP9vhZLNt_OP7pDjotBHKnjzUowj7YrgqZIla4f5ZFb7Ee4gL5TQRa1YWpF22-j87lWZwhe2s_gYrmxSlZ1Kh20PT61Yl7vPo2",
+            "duration": "PT2H32M",
+            "formattedDuration": "2h 32m"
+          },
+          {
+            "type": "NONSTOP",
+            "state": "PRE_START_4",
+            "numberOfStops": 0,
+            "airlineLogoURL": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/smUA.gif",
+            "segments": [
+              {
+                "transportationType": "FLIGHT",
+                "departureType": "FLIGHT_DEPARTURE",
+                "departureLocation": {
+                  "latitude": 39.849354,
+                  "longitude": -104.672735,
+                  "name": "Denver Intl.",
+                  "longName": "Denver, CO (DEN-Denver Intl.)",
+                  "airportCode": "DEN",
+                  "airportMetroCode": "DEN",
+                  "city": "Denver",
+                  "countryCode": "USA"
+                },
+                "departureTime": {
+                  "raw": "2016-05-11T22:00:00-06:00",
+                  "localized": "May 11, 2016 10:00:00 PM",
+                  "epochSeconds": 1463025600,
+                  "timeZoneOffsetSeconds": -21600,
+                  "localizedShortDate": "Wed, 11 May"
+                },
+                "arrivalType": "FLIGHT_ARRIVAL",
+                "arrivalLocation": {
+                  "latitude": 47.45475,
+                  "longitude": -122.30112,
+                  "name": "Seattle - Tacoma Intl.",
+                  "longName": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                  "airportCode": "SEA",
+                  "city": "Seattle",
+                  "countryCode": "USA"
+                },
+                "arrivalTime": {
+                  "raw": "2016-05-11T23:47:00-07:00",
+                  "localized": "May 11, 2016 11:47:00 PM",
+                  "epochSeconds": 1463035620,
+                  "timeZoneOffsetSeconds": -25200,
+                  "localizedShortDate": "Wed, 11 May"
+                },
+                "airlineCode": "UA",
+                "externalAirlineCode": "UA",
+                "airlineName": "United",
+                "operatedByAirCarrierName": "",
+                "confirmationAirline": "United",
+                "confirmationNUmber": "I73DRD",
+                "flightNumber": "505",
+                "equipmentCode": "320",
+                "equipmentDescription": "Airbus A320",
+                "formattedLayoverDuration": "",
+                "distance": 1017,
+                "distanceUnits": "mi",
+                "duration": "PT2H47M",
+                "formattedDuration": "2h 47m",
+                "bookingCode": "G",
+                "cabinCode": "coach",
+                "cabinCodeLocalized": "Economy / Coach",
+                "isSeatMapAvailable": true,
+                "flightIdForSeatMap": "D42A5982-9D4A-4053-AAC7-BACA1B68EF90_0_L2_S1_1",
+                "status": "UNKNOWN",
+                "airSegmentStatusCode": "HK",
+                "isHidden": false
+              }
+            ],
+            "sharableFlightLegURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/shared/myiZ6AMVh5LXAP_nlfOGc8CAvRbW8O5QBHkUs4n2n9zMCIpib5GbkxXmnYcxSg9zUj48JPnHz8EohaqdqZLiMdWBUix89dMh8vYxLfUWyIJZDup9NNoVCrqOw8nW6-6HzfNVmrMTIgML94WwUrSTEPS7",
+            "duration": "PT2H47M",
+            "formattedDuration": "2h 47m"
+          }
+        ],
+        "rules": {
+          "cancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+          "faresNotGuaranteedText": "Fares are not guaranteed until ticketed.",
+          "cancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+          "feeChangeRefundIntroductionText": "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+          "refundabilityText": "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+          "additionalAirlineFees": {
+            "text": "The airline may charge additional fees for checked baggage or other optional services.",
+            "url": "https://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SEA&destinationapt=DEN&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=GAA14AQN/EX04&bookingclass=G&travelDate=2016-05-09&flightNumber=742",
+            "textAndURL": "The airline may charge <a href=\"https://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SEA&destinationapt=DEN&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=GAA14AQN/EX04&bookingclass=G&travelDate=2016-05-09&flightNumber=742\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a> for checked baggage or other optional services."
+          },
+          "airlineLiabilityLimitations": {
+            "text": "Please read important information regarding airline liability limitations.",
+            "url": "https://wwwexpediacom.integration.sb.karmalab.net/p/info-main/warsaw?",
+            "textAndURL": "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https://wwwexpediacom.integration.sb.karmalab.net/p/info-main/warsaw?\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a>."
+          },
+          "airlineCheckInInstructionText": "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+          "railFeederMessages": [],
+          "expediaChangeFeeChargeable": false
+        },
+        "sharableItemDetailURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/shared/-CvrGK2zx_N8vQnAjmdnnMCAsiKkutBwfE8fuT91kaPAwsCvldPPG6rKxFTCUz-lj3CbI8SDDM4vvDPcxdRiwBj5ErPAT7pBmNamgcq6ux_7apfGh3GR2Cjo1ZuJBZy44NH0ijV_I1Pxs4SLt8vdh8TL",
+        "airRecordLocator": "100020764",
+        "isSeatMapAvailable": true,
+        "webChangePathURL": "https://wwwexpediacom.integration.sb.karmalab.net/flight-change-gds?itinnumber=11657586156&arl=100020764&cname=United",
+        "bookingProvider": "SABRE",
+        "hasTrainTransfer": false,
+        "ticketingAirCarrierNames": [
+          "United"
+        ],
+        "isLccOrCharter": false,
+        "destinationRegionId": 6060658
+      }
+    ],
+    "readTripError": false,
+    "tripSource": "expedia",
+    "isMRP": false
+  }
+}
